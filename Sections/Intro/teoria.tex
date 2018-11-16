@@ -3,9 +3,16 @@
 
 La misura del rapporto $\e$ su $m$ si basa sull'osservazione della traiettoria di elettroni eccitati da una differenza di potenziale $\Delta\volt$ presente fra il catodo e l'anodo di un cannone elettronico posto in un'ampolla contente idrogeno ad una pressione di circa $10^{-2}\,torr$.
 Gli atomi di $H$, se eccitati decadono in un tempo brevissimo emettendo fotoni nella lunghezza d'onda di $\sim 450\nano\meter$.
-Questi elettroni vengono deflessi, una volta emessi, dal campo magnetico generato da due bobine di Helmholtz che li obbliga a percorrere una traiettoria circolare, della quale è possibile misurare il raggio.
+Questi elettroni vengono deflessi, una volta emessi, dal campo magnetico generato da due bobine di Helmholtz che li obbligano a percorrere una traiettoria circolare, della quale è possibile misurare il raggio.
+La loro energia cinetica $T$ è esprimibile con la seguente equazione
+\begin{center}
+	\begin{equation} \label{eqn:T}
+	\frac{mv^2}{2}=e\Delta\volt
+	\end{equation}
+\end{center}
+
 L'ampolla è posizionata nel centro della coppia di bobine.
-Chiamiamo ora $I$ l'intensità della corrente necessaria ad indurre il campo magnetico $B_z$ delle due bobine, $N$ il numero di spire e con $R_b$ il raggio medio dell'ampolla
+Chiamiamo ora $I$ l'intensità della corrente necessaria ad indurre il campo magnetico $B_z$ delle due bobine, $N$ il numero di spire e con $R_b$ il raggio medio dell'ampolla.
 L'intensità del campo è data da 
 \begin{center}
 	\begin{equation*}
@@ -13,4 +20,19 @@ L'intensità del campo è data da
 	\end{equation*}
 \end{center}
 
+Il raggio $R$ della traiettoria percorsa dagli $\e$ è quindi
+
+\begin{center}
+	\begin{equation} \label{eqn:B_z}
+	\frac{mv^2}{R} = evB_z
+	\end{equation}
+\end{center}
+dove $v$ è la velocità degli elettroni, $e$ la loro carica, $m$ la loro massa.
+
+A questo punto, dalle relazioni \ref{eqn:T} e \ref{eqn:B_z} si può ottenere
+\begin{center}
+	\begin{equation}\label{eqn:em}
+	\frac{e}{m}=\frac{2\Delta\volt}{(B_z(R)r)^2}
+	\end{equation}
+\end{center}
 
